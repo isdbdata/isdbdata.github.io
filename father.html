@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<html>
+<html> 
+  <head> 
+    <script src="js/jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("b.html"); 
+    });
+    </script> 
+  </head> 
 
-<body>
-
-<!--#include virtual="child.html"-->
-
-<p> you should see something above</p>
-
-</body>
+  <body> 
+     <div id="includedContent"></div>
+  </body> 
 </html>
