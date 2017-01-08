@@ -3,19 +3,15 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>MacroEconomic Data</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#nav").load("nav.html"); 
+      $("#footer").load("footer.html");
+    });
+    </script> 
+    <div id="header"></div>
 
 
 </head>
@@ -23,71 +19,8 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand active" href="index.html" style="font-size: 25px;">IDBG MacroEconomic Data</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Indicators <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="eiu.html">EIU - Economist Intelligence Unit</a>
-                            </li>
-                            <li>
-                                <a href="worldbank.html">World Bank</a>
-                            </li>
-                            <li>
-                                <a href="imf.html">IMF - International Monetary Fund</a>
-                            </li>
-                            
-                        </ul>
-                    </li>
-                   
-                                                      
-                    <li>
-                        <a href="region.html">Regions</a>
-                    </li>
-                    <li>
-                         <a href="#" data-toggle="modal" data-target="#myModal">About</a>
-                    </li>
-                   
-                    
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
-        
-          <!-- Modal content-->
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">About</h4>
-            </div>
-            <div class="modal-body">
-              <p>Designed and maintained by Data Resources and Statistics Division (DRSD) of the Economic Research and Policy Department (ERPD). To report any mistakes or to suggest new indicators and improvements, please call Br. Abu Camara (x. 6631)</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-          
-        </div>
-    </div>
+     <div id="nav"></div>
+
 
     <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
@@ -133,11 +66,46 @@
     <div class="container">
 
         <!-- Marketing Icons Section -->
-        <div class="row">
+         <div class="row">
             <div class="col-lg-12">
-                <h1>Coming Soon!</h1>
+                <h1>IMF World Economic Outlook</h1>
             </div>
         </div>
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+                    The World Economic Outlook (WEO) presents IMF economists' analyses of global economic developments, issues affecting advanced, emerging, and developing economies, and topics of current interest. The latest update is <a href="http://www.imf.org/external/pubs/ft/weo/2016/02/weodata/index.aspx"> October 2016 </a>
+                </p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Line Chart</h2>
+                <p>
+                   <div class='tableauPlaceholder' id='viz1483866702748' style='position: relative'><noscript><a href=''><img alt='year ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ta&#47;tab_8&#47;year&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='tab_8&#47;year' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ta&#47;tab_8&#47;year&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1483866702748');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1004px';vizElement.style.height='869px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Bar Chart</h2>
+                <p>
+                   <div class='tableauPlaceholder' id='viz1483866731292' style='position: relative'><noscript><a href=''><img alt='Current Account Balance (% of GDP) [2014] ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ta&#47;tab_8&#47;bar&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='tab_8&#47;bar' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ta&#47;tab_8&#47;bar&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1483866731292');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Regional Maps</h2>
+                <p>
+                   <div class='tableauPlaceholder' id='viz1483866750090' style='position: relative'><noscript><a href=''><img alt='Current Account Balance (% Change) for ECO ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ta&#47;tab_8&#47;region&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='tab_8&#47;region' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ta&#47;tab_8&#47;region&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1483866750090');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                </p>
+            </div>
+        </div>
+        <hr>
         
         
         
@@ -145,13 +113,7 @@
         <hr>
 
         <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; IDB Group Data 2017</p>
-                </div>
-            </div>
-        </footer>
+         <div id="footer"></div>
 
     </div>
     <!-- /.container -->
