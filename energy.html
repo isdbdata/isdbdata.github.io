@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   <script src="js/jquery.js"></script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#nav").load("nav.html"); 
+      $("#footer").load("footer.html");
+    });
+    </script> 
+    <div id="header"></div>
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+   <div id="nav"></div>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('images/poverty.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Towards eradicating poverty</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('images/climate.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Togather for better Earth</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('images/sdg.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Cooperation in Development</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Energy</h1>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Proven Crude Oil Reserves</h2>
+                
+                <p>
+                   <img class="img-responsive img-portfolio img-hover" src="images/crude_oil1.png" style="height: 500px">
+                </p>
+            </div>
+            <div class="col-lg-12">
+                <h2>Proven Natural Gas Reserves </h2>
+                
+                <p>
+                   <img class="img-responsive img-portfolio img-hover" src="images/gas_reserve.png" style="height: 500px">
+                </p>
+            </div>
+        </div>
+        
+        
+
+        <hr>
+
+        <!-- Footer -->
+         <div id="footer"></div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
