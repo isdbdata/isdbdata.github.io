@@ -176,10 +176,10 @@
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
 
     <!-- Script to Activate the Carousel -->
     <script>
@@ -187,10 +187,15 @@
         interval: 5000 //changes the speed
     })
     </script>
-    <script src="js/dataTables.bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
     <script src="js/jquery.dataTables.min.js"></script>
-    <script>
-      $('#baqi').dataTable();
+    <script src="js/dataTables.bootstrap.min.js"></script>
+    
+    <script type="text/JavaScript">
+      $(document).ready(function(){
+        $('#baqi').DataTable();
+      });
+      
 
     </script>
 </body>
