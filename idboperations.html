@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <script src="js/jquery.js"></script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#nav").load("nav.html"); 
+      $("#footer").load("footer.html");
+    });
+    </script> 
+    <div id="header"></div>
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+     <div id="nav"></div>
+
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('images/poverty.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Towards eradicating poverty</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('images/climate.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Togather for better Earth</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('images/sdg.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Cooperation in Development</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+         <div class="row">
+            <div class="col-lg-12">
+                <h1>IDB Group Operations</h1>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+                    You can make a custom query on IDBGroup operations in the dashboard below. Check <a href="https://www.isdb.org/irj/go/km/docs/documents/IDBDevelopments/Internet/English/IDB/CM/IDB%20Group%20Data/LiveDashboard/IsDB%20Projects.html"> IDB site </a> for more interactive visualizations. 
+                </p>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <div class="col-lg-12">
+            <p>
+                <div class="alert alert-info"> After selecting your query parameters, you can download the data in Excel for any further analysis </div>
+                    
+                </p>
+                <p>
+                   <div class='tableauPlaceholder' id='viz1485934967309' style='position: relative'><noscript><a href=''><img alt='custom query ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;cu&#47;custom&#47;customquery&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='custom&#47;customquery' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;cu&#47;custom&#47;customquery&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1485934967309');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1004px';vizElement.style.height='869px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                </p>
+            </div>
+        </div>
+        <hr>
+        
+        
+        
+
+        <hr>
+
+        <!-- Footer -->
+         <div id="footer"></div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
