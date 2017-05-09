@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   <script src="js/jquery.js"></script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#nav").load("nav.html"); 
+      $("#footer").load("footer.html");
+    });
+    </script> 
+    <div id="header"></div>
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+   <div id="nav"></div>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('images/poverty.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Goal 1: No Poverty</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('images/climate.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Goal 13 : Climate Action</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('images/sdg.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Goal 17: Partnerships for the Goals</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Sustainable Development Goals @ IDBG Member Countries</h1>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-12">
+                
+                <img src="images/sdg-icons.png" width="900">
+                
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Status of Member Countries</h2>
+                <p>
+                    Following Chart shows various SDG related indicators for IDB Member countries. The data is taken from <a href="https://unstats.un.org/sdgs/indicators/database/">UN Statistical Office.</a> 
+                </p>
+                <p>
+                    <div class='tableauPlaceholder' id='viz1494317979224' style='position: relative'><noscript><a href=''><img alt='sdg ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;sd&#47;sdg&#47;sdg&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='sdg&#47;sdg' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;sd&#47;sdg&#47;sdg&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1494317979224');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1004px';vizElement.style.height='869px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                </p>
+                
+                <p>
+                    Below is the same data shown on a map. 
+                </p>
+                <p>
+                    <div class='tableauPlaceholder' id='viz1494318095385' style='position: relative'><noscript><a href=''><img alt='maps ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;sd&#47;sdg-maps&#47;maps&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='sdg-maps&#47;maps' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;sd&#47;sdg-maps&#47;maps&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1494318095385');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1004px';vizElement.style.height='869px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Useful Links</h2>
+                <p>
+                <UL>
+                    <li>
+                        <a href="https://unstats.un.org/sdgs/">UN SDG indicators website</a>
+                    </li>
+                    <li>
+                        <a href="http://www.un.org/sustainabledevelopment/sustainable-development-goals/">UN SDG Page</a>
+                    </li>
+                    <LI>
+                        <a href="https://sustainabledevelopment.un.org/">UN SDG Knowledge Platform</a>
+                    </LI>
+                    <li>
+                        <a href="http://www.undp.org/content/undp/en/home/sustainable-development-goals.html">UNDP SDG page</a>
+                    </li>
+                    <li>
+                        <a href="http://www.data4sdgs.org/">Global partnership for SDG data</a>
+                    </li>
+                </UL>
+                   
+                </p>
+               
+            </div>
+        </div>
+        
+        <hr>
+
+        <!-- Footer -->
+         <div id="footer"></div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
