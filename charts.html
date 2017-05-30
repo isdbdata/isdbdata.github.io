@@ -6,13 +6,13 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+        <!-- <link rel="stylesheet" href="css/main.css"> -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <!-- Bootstrap Core CSS -->
          <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom CSS -->
-         <link href="css/modern-business.css" rel="stylesheet">
+         <!-- <link href="css/modern-business.css" rel="stylesheet"> -->
     </head>
     <body>
 
@@ -26,7 +26,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>People</h1>
+                    <h1>Part I: Demographic and Human Development Indicators</h1>
                 </div>
                 
             </div>
@@ -35,6 +35,10 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             Population Distribution By IDB Regions (Millions)
+                            <a href='monograph37/Table 1.01a - Total Population - Both Sexes.xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
+                            
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -50,6 +54,9 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             Most Populous Member Countries (Millions)
+                            <a href='monograph37/Table 1.01a - Total Population - Both Sexes.xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -63,7 +70,10 @@
                 <div class="col-lg-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Population Density (persons/square km.) - Highest
+                            Population Density (persons/square km.) - Highest 
+                            <a href='monograph37/Table 1.08a - Population density (people per sq. km of land area).xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -78,6 +88,9 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             Population Density (persons/square km.) - Lowest
+                            <a href='monograph37/Table 1.08a - Population density (people per sq. km of land area).xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -92,7 +105,10 @@
                 <div class="col-lg-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Male-Female Gap (%)
+                            Male-Female Gap (%) - Highest Male
+                            <a href='monograph37/Table 1.03a - Male Population (percent of Total).xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -106,16 +122,228 @@
                 <div class="col-lg-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Population Density (persons/square km.) - Lowest
+                            Countries with More Female (%)
+                            <a href='monograph37/Table 1.03b - Female Population (percent of Total).xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
-                            <canvas id="chartjs-pop-density-low"></canvas>
+                            <canvas id="chartjs-pop-gender-female"></canvas>
                         </div>
                         <!-- /.panel-body -->
                     </div>
                     <!-- /.panel -->
                 </div>
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Countries with Most Youth Population (% of total population)
+                            <a href='monograph37/Table 1.02b - Youth population percent of total population.xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <canvas id="chartjs-pop-youth"></canvas>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Countries with > 70% of population in economically active age
+                            <a href='monograph37/Table 1.03d - Population - Ages (15-64) (percent of Total).xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <canvas id="chartjs-pop-workforce"></canvas>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Top Ageing Countries
+                            <a href='monograph37/Table 1.03e - Population - Ages (65+) (percent of Total).xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <canvas id="chartjs-pop-top-ageing"></canvas>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Bottom Ageing Countries
+                            <a href='monograph37/Table 1.03e - Population - Ages (65+) (percent of Total).xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <canvas id="chartjs-pop-bottom-ageing"></canvas>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Population growth rate in IDB regions
+                            <a href='monograph37/Table 1.02a - Annual Population Growth Rate.xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <canvas id="chartjs-pop-growth-regions"></canvas>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Countries with growth rate > 3%
+                            <a href='monograph37/Table 1.02a - Annual Population Growth Rate.xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <canvas id="chartjs-pop-growth-countries"></canvas>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Crude Birth and Death Rates - IDB
+                            <a href='monograph37/Table 1.08b - Crude birth rate, (per 1,000 people).xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right">&nbsp;Birth&nbsp;</span> 
+                            </a>
+                             <a href='monograph37/Table 1.08c - Crude death rate, (per 1,000 people).xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right">&nbsp;Death&nbsp;</span> 
+                            </a>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <canvas id="chartjs-pop-birth-death"></canvas>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Fertility Rates
+                            <a href='monograph37/Table 1.08d - Total fertility rate, (births per woman).xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <canvas id="chartjs-pop-fertility"></canvas>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+
+                 <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Under-Five mortality rates - Top Countries
+                            <a href='monograph37/Table 1.04 - Under-Five Mortality rate (per 1,000 live birth).xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span> 
+                            </a>
+                            
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <canvas id="chartjs-pop-mortality"></canvas>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Under-Five mortality - IDB Regions
+                           <a href='monograph37/Table 1.04 - Under-Five Mortality rate (per 1,000 live birth).xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <canvas id="chartjs-pop-mortality-regions"></canvas>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Adult Literacy rate - IDB Regions
+                            <a href='monograph37/Table 1.11c - Adult literacy rate, population 15+ years, both sexes (percent).xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span> 
+                            </a>
+                            
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <canvas id="chartjs-pop-literacy"></canvas>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Countries where female net primary school enrollment exceeds males
+                          <a href='monograph37/Table 1.11f - Net enrolment rate, primary, female as percent of Male.xlsx'>
+                                <span class="glyphicon glyphicon-download-alt" style="float:right"></span>
+                            </a>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <canvas id="chartjs-pop-enrollment-primary"></canvas>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+
                 </div>
                
 
@@ -129,3 +357,5 @@
         
     </body>
 </html>
+
+
