@@ -1,5 +1,6 @@
 
 Chart.defaults.global.legend.labels.boxWidth=20;
+Chart.defaults.global.responsive = true;
 var ctx = document.getElementById("chartjs-most-populous").getContext('2d');
 
 var myChart = new Chart(ctx, {
