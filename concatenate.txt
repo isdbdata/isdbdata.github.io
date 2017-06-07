@@ -1,0 +1,4 @@
+=CONCATENATE("<tr><th scope='row'>",A12,"</th><td>",ROUND(B12,1),"</td><td>",ROUND(C12,1),"<td><canvas id='dza-",M12,"'></canvas></td></tr>")
+
+
+=CONCATENATE("[",ROUND(B4,1),",",ROUND(C4,1),",",ROUND(D4,1),",",ROUND(E4,1),",",ROUND(F4,1),",",ROUND(G4,1),",",ROUND(H4,1),",",ROUND(I4,1),",",ROUND(J4,1),",",ROUND(K4,1),",",ROUND(L4,1),"],")
