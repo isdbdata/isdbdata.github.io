@@ -7,3 +7,21 @@
 
 
 =CONCATENATE("data: [",ROUND(B12,1),",",ROUND(C12,1),",",ROUND(D12,1),",",ROUND(E12,1),",",ROUND(F12,1),",",ROUND(G12,1),",",ROUND(H12,1),",",ROUND(I12,1),",",ROUND(J12,1),",",ROUND(K12,1),"],")
+
+
+/////////////////////////////////////////NEW/////////////////////////////////////////
+
+=CONCATENATE("<tr><th scope='row'>",A4,"</th><td>",ROUND(B4,1),"</td><td>",ROUND(L4,1),"<td><canvas id='BHR' class='sparkline' data-chart_values=[",ROUND(B4,1),",",ROUND(C4,1),",",ROUND(D4,1),",",ROUND(E4,1),",",ROUND(F4,1),",",ROUND(G4,1),",",ROUND(H4,1),",",ROUND(I4,1),",",ROUND(J4,1),",",ROUND(K4,1),",",ROUND(L4,1),"]></canvas></td></tr>")
+
+
+//2021
+=CONCATENATE("<tr><th scope='row'>",A12,"</th><td>",ROUND(B12,1),"</td><td>",ROUND(K12,1),"<sup>2021</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[",ROUND(B12,1),",",ROUND(C12,1),",",ROUND(D12,1),",",ROUND(E12,1),",",ROUND(F12,1),",",ROUND(G12,1),",",ROUND(H12,1),",",ROUND(I12,1),",",ROUND(J12,1),",",ROUND(K12,1),"]></canvas></td></tr>")
+
+//2018
+=CONCATENATE("<tr><th scope='row'>",A12,"</th><td>",ROUND(B12,1),"</td><td>",ROUND(H12,1),"<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[",ROUND(B12,1),",",ROUND(C12,1),",",ROUND(D12,1),",",ROUND(E12,1),",",ROUND(F12,1),",",ROUND(G12,1),",",ROUND(H12,1),"]></canvas></td></tr>")
+
+//WHEN BLANK
+
+=CONCATENATE("<tr><th scope='row'>",A12,"</th><td>","..","</td><td>","..","<td><canvas id='BHR'></canvas></td></tr>")
+
+//from row 23 and year 2018
