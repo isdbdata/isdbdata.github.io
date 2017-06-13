@@ -11,6 +11,7 @@
 		
 		<link href="css/dashboard.css" rel="stylesheet">
         <!-- Custom CSS -->
+
         <style type="text/css">
         	canvas{
 
@@ -34,6 +35,25 @@
 				
 
 			}
+
+			.footer {
+				  position: relative;
+				  bottom: 0;
+				  width: 100%;
+				  /* Set the fixed height of the footer here */
+				  height: 50px;
+				  line-height: 60px; /* Vertically center the text there */
+				  /*background-color: #f5f5f5;*/
+				}
+
+			.footer > .container {
+			  padding-right: 15px;
+			  padding-left: 150px;
+			}
+
+			.text-muted {
+				font-size: 75%;
+			}
 		</style>
              
         
@@ -45,7 +65,35 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">IDB Member Country Macro-Economic Statistics</a>
+
+      	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto ">
+          
+          <li class="nav-item float-xs-right">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#aboutModal">About</a>
+          </li>
+        </ul>
+        
+      	</div>
     </nav>
+
+<!-- modal -->
+<div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+       
+      <div class="modal-body">
+        Sources of data are IMF World Economic Outlook (April 2017) and Economist Intelligence Unit (accessed on 21 May 2017). 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
 	<div class="container-fluid">
       <div class="row">
 		<nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
@@ -132,6 +180,96 @@
 	            <li class="nav-item">
 	              <a class="nav-link" href="KGZ">Kyrgyz Republic</a>
 	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="LBN">Lebanon</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="LBY">Libya</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="MYS">Malaysia</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="MDV">Maldives</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="MLI">Mali</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="MRT">Mauritania</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="MAR">Morocco</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="MOZ">Mozambique</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="NER">Niger</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="NGA">Nigeria</a>
+	            </li>
+	             <li class="nav-item">
+	              <a class="nav-link" href="OMN">Oman</a>
+	            </li>
+	             <li class="nav-item">
+	              <a class="nav-link" href="PAK">Pakistan</a>
+	            </li>
+	             <li class="nav-item">
+	              <a class="nav-link" href="PSE">Palestine</a>
+	            </li>
+	             <li class="nav-item">
+	              <a class="nav-link" href="QAT">Qatar</a>
+	            </li>
+	             <li class="nav-item">
+	              <a class="nav-link" href="SAU">Saudi Arabia</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="SEN">Senegal</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="SLE">Sierra Leone</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="SOM">Somalia</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="SDN">Sudan</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="SUR">Suriname</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="SYR">Syria</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="TJK">Tajikistan</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="TGO">Togo</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="TUN">Tunisia</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="TUR">Turkey</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="TKM">Turkmenistan</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="ARE">U.A.E.</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="UGA">Uganda</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="UZB">Uzbekistan</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="YEM">Yemen</a>
+	            </li>
 	          </ul>
 		</nav>
 		<main id="content" class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
@@ -143,7 +281,11 @@
       </div>
     </div>  
 
-
+	<footer class="footer">
+      <div class="container">
+        <p class="text-muted">Copyright &copy; 2017 Data &amp; Statistics, IDB Group</p>
+      </div>
+    </footer>
 
     
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
