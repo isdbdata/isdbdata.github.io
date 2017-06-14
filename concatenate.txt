@@ -25,3 +25,25 @@
 =CONCATENATE("<tr><th scope='row'>",A12,"</th><td>","..","</td><td>","..","<td><canvas id='BHR'></canvas></td></tr>")
 
 //from row 23 and year 2018
+
+
+/////////////////////////////////////////// for indicators //////////////////////////
+
+//afghanistan
+=CONCATENATE("<tr><th scope='row'>",A3,"</th><td>","..","</td><td>",ROUND(D3,1),"<sup>2003</sup></td><td>",ROUND(W3,1),"<td><canvas id='BHR' class='sparkline' data-chart_values=[null,",ROUND(D3,1),",",ROUND(E3,1),",",ROUND(F3,1),",",ROUND(G3,1),",",ROUND(H3,1),",",ROUND(I3,1),",",ROUND(J3,1),",",ROUND(K3,1),",",ROUND(L3,1),",",ROUND(M3,1),",", ROUND(N3,1), ",", ROUND(M3,1),",",ROUND(O3,1), ",", ROUND(P3,1), ",", ROUND(Q3,1), ",", ROUND(R3,1), ",", ROUND(S3,1), ",", ROUND(T3,1),",", ROUND(U3,1), ",", ROUND(V3,1), ",", ROUND(W3,1), "]></canvas></td></tr>")
+
+
+=CONCATENATE("<tr><th scope='row'>",A4,"</th><td>",ROUND(B4,1),"</td><td>",ROUND(C4,1),"</td><td>",ROUND(W4,1),"<td><canvas id='BHR' class='sparkline' data-chart_values=[",ROUND(C4,1),",",ROUND(D4,1),",",ROUND(E4,1),",",ROUND(F4,1),",",ROUND(G4,1),",",ROUND(H4,1),",",ROUND(I4,1),",",ROUND(J4,1),",",ROUND(K4,1),",",ROUND(L4,1),",",ROUND(M4,1),",", ROUND(N4,1), ",", ROUND(M4,1),",",ROUND(O4,1), ",", ROUND(P4,1), ",", ROUND(Q4,1), ",", ROUND(R4,1), ",", ROUND(S4,1), ",", ROUND(T4,1),",", ROUND(U4,1), ",", ROUND(V4,1), ",", ROUND(W4,1), "]></canvas></td></tr>")
+
+
+//blank palestine
+=CONCATENATE("<tr><th scope='row'>",A42,"</th><td>","..","</td><td>","..","</td><td>","..","<td><canvas></canvas></td></tr>")
+
+//blank somalia
+=CONCATENATE("<tr><th scope='row'>",A47,"</th><td>","..","</td><td>","..","</td><td>","..","<td><canvas></canvas></td></tr>")
+
+//syria
+=CONCATENATE("<tr><th scope='row'>",A50,"</th><td>",ROUND(B50,1),"</td><td>",ROUND(C50,1),"</td><td>",ROUND(K50,1),"<sup>2010</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[",ROUND(C50,1),",",ROUND(D50,1),",",ROUND(E50,1),",",ROUND(F50,1),",",ROUND(G50,1),",",ROUND(H50,1),",",ROUND(I50,1),",",ROUND(J50,1),",",ROUND(K50,1), "]></canvas></td></tr>")
+
+//when 1990 ios missing
+=CONCATENATE("<tr><th scope='row'>",A6,"</th><td>","..","</td><td>",ROUND(C6,1),"</td><td>",ROUND(W6,1),"<td><canvas id='BHR' class='sparkline' data-chart_values=[",ROUND(C6,1),",",ROUND(D6,1),",",ROUND(E6,1),",",ROUND(F6,1),",",ROUND(G6,1),",",ROUND(H6,1),",",ROUND(I6,1),",",ROUND(J6,1),",",ROUND(K6,1),",",ROUND(L6,1),",",ROUND(M6,1),",", ROUND(N6,1), ",", ROUND(M6,1),",",ROUND(O6,1), ",", ROUND(P6,1), ",", ROUND(Q6,1), ",", ROUND(R6,1), ",", ROUND(S6,1), ",", ROUND(T6,1),",", ROUND(U6,1), ",", ROUND(V6,1), ",", ROUND(W6,1), "]></canvas></td></tr>")

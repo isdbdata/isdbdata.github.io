@@ -13,12 +13,17 @@
         <!-- Custom CSS -->
 
         <style type="text/css">
-        	canvas{
+        	canvas {
 
-					  width:80px !important;
+					  width:150px !important;
 					  height:35px !important;
 
 					}
+
+		/*	canvas .sparkline {
+				width: 150px !important;
+				height: 45px !important;
+			}*/
 
 			sup {
 				font-size: 55%;
@@ -97,10 +102,19 @@
 	<div class="container-fluid">
       <div class="row">
 		<nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+
 			<ul id="nav" class="nav nav-pills flex-column">
+				<li class="nav-item"><h6>By Indicators</h6></li>
+				<li class="nav-item"><a class="nav-link" href="GDP">GDP Growth</a></li>
+				<li class="nav-item"><a class="nav-link" href="inflation">Inflation</a></li>
+				<li class="nav-item"><a class="nav-link" href="CAB">Account Balance</a></li>
+			</ul>
+
+
+			<ul id="nav" class="nav nav-pills flex-column">
+				<li class="nav-item"><h6>By Countries</h6></li>
 	            <li class="nav-item">
-	              <!-- <a class="nav-link active" href="AFG">Afghanistan <span class="sr-only">(current)</span></a> -->
-	              <a class="nav-link active" href="AFG2">Afghanistan</a>
+	              <a class="nav-link active" href="AFG">Afghanistan</a>
 	            </li>
 	            <li class="nav-item">
 	              <a class="nav-link" href="ALB">Albania</a>

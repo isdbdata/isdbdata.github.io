@@ -1,14 +1,12 @@
-var data = {
-  labels : ['1','2','3','4','5', '6', '7', '8', '9', '1', '2'],
-  datasets : [
-    {
-      borderColor: 'rgba(191, 63, 63,0.7)', fill:false, pointRadius:0,
-      data : [28,48,40,19,96,27,100]
-    }
-  ]
-};
-
-
+// var data = {
+//   labels : ['1','2','3','4','5', '6', '7', '8', '9', '0','1', '2','3','1','2','3','4','5', '6', '7', '8'],
+//   datasets : [
+//     {
+//       borderColor: 'rgba(191, 63, 63,0.7)', fill:false, pointRadius:0,
+//       data :[4.5,5.5,5.5,5.5,5.9,6,7.5,3.4,3.7,2.5,1.4,1,1.4,1.8,2.6,3.4,3.7,4.1,4.14.1,4.1,4.1]
+//     }
+//   ]
+// }
 
 var options = {
     responsive:true,
@@ -23,8 +21,7 @@ var options = {
         display:false
       }],
     },
-};
-
+}
 
 
 $(document).ready(function() {
@@ -39,7 +36,7 @@ $(document).ready(function() {
     
     // Build the data object
     var data = {};
-    var labels = ['1','2','3','4','5', '6', '7', '8', '9', '1', '2'];
+    var labels = ['1','2','3','4','5', '6', '7', '8', '9', '0','1', '2','3','1','2','3','4','5', '6', '7', '8'];
     var datasets = {};
     
     // Create a null label for each value
@@ -64,4 +61,3 @@ $(document).ready(function() {
     })
   })
 });
-
