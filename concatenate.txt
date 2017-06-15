@@ -47,3 +47,13 @@
 
 //when 1990 ios missing
 =CONCATENATE("<tr><th scope='row'>",A6,"</th><td>","..","</td><td>",ROUND(C6,1),"</td><td>",ROUND(W6,1),"<td><canvas id='BHR' class='sparkline' data-chart_values=[",ROUND(C6,1),",",ROUND(D6,1),",",ROUND(E6,1),",",ROUND(F6,1),",",ROUND(G6,1),",",ROUND(H6,1),",",ROUND(I6,1),",",ROUND(J6,1),",",ROUND(K6,1),",",ROUND(L6,1),",",ROUND(M6,1),",", ROUND(N6,1), ",", ROUND(M6,1),",",ROUND(O6,1), ",", ROUND(P6,1), ",", ROUND(Q6,1), ",", ROUND(R6,1), ",", ROUND(S6,1), ",", ROUND(T6,1),",", ROUND(U6,1), ",", ROUND(V6,1), ",", ROUND(W6,1), "]></canvas></td></tr>")
+
+//iraq start 2004
+=CONCATENATE("<tr><th scope='row'>",A25,"</th><td>","..","</td><td>",ROUND(E25,1),"</td><td>",ROUND(W25,1),"<td><canvas id='BHR' class='sparkline' data-chart_values=[null,null,",ROUND(E25,1),",",ROUND(F25,1),",",ROUND(G25,1),",",ROUND(H25,1),",",ROUND(I25,1),",",ROUND(J25,1),",",ROUND(K25,1),",",ROUND(L25,1),",",ROUND(M25,1),",", ROUND(N25,1), ",", ROUND(M25,1),",",ROUND(O25,1), ",", ROUND(P25,1), ",", ROUND(Q25,1), ",", ROUND(R25,1), ",", ROUND(S25,1), ",", ROUND(T25,1),",", ROUND(U25,1), ",", ROUND(V25,1), ",", ROUND(W25,1), "]></canvas></td></tr>")
+
+
+/////////////////////// for EIU //////////////////
+
+ending at 2021
+
+=CONCATENATE("<tr><th scope='row'>",A5,"</th><td>","..","</td><td>",ROUND(C5,1),"</td><td>",ROUND(V5,1),"<td><canvas id='BHR' class='sparkline' data-chart_values=[",ROUND(C5,1),",",ROUND(D5,1),",",ROUND(E5,1),",",ROUND(F5,1),",",ROUND(G5,1),",",ROUND(H5,1),",",ROUND(I5,1),",",ROUND(J5,1),",",ROUND(K5,1),",",ROUND(L5,1),",",ROUND(M5,1),",", ROUND(N5,1), ",", ROUND(M5,1),",",ROUND(O5,1), ",", ROUND(P5,1), ",", ROUND(Q5,1), ",", ROUND(R5,1), ",", ROUND(S5,1), ",", ROUND(T5,1),",", ROUND(U5,1), ",", ROUND(V5,1), "]></canvas></td></tr>")
