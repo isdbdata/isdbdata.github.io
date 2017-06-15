@@ -51,6 +51,7 @@ $(document).ready(function() {
     datasets['fill'] = false;
     datasets['pointRadius'] = 0;
     datasets['borderColor'] = 'rgba(191, 63, 63,0.7)';
+    datasets['borderWidth'] = 3;
     datasets['data'] = chartData;
     
     // Add to data object

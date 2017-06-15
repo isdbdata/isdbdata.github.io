@@ -1,5 +1,5 @@
 // albania - alb
-
+Chart.defaults.global.elements.line.borderWidth = 3;
 var alb1 = document.getElementById("alb-1").getContext('2d');
 var myChart = new Chart(alb1, {
   type: 'line',

@@ -1,4 +1,4 @@
-Chart.defaults.global.elements.line.borderWidth = 1.5;
+Chart.defaults.global.elements.line.borderWidth = 3;
 Chart.defaults.line.spanGaps = false;
 Chart.defaults.global.legend.display = false;
 

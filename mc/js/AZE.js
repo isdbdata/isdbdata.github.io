@@ -1,3 +1,4 @@
+Chart.defaults.global.elements.line.borderWidth = 3;
 var aze1 = document.getElementById("aze-1").getContext('2d');
 var myChart = new Chart(aze1, {
   type: 'line',
