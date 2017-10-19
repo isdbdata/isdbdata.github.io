@@ -1,64 +1,27 @@
-<!-- <div class="container-fluid">
-      <div class="row">   -->          
-            <!-- <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3"> -->
-            <h1>Mali
-            <a href='countries/MLI.xlsx'>
-              <i class="fa fa-file-excel-o" aria-hidden="true" style="float: right"></i>
-              </a>
-              <a href='countries/MLI.pdf'>
-              <i class="fa fa-file-pdf-o" aria-hidden="true" style="float: right">&nbsp;&nbsp;&nbsp;</i>
-              </a>
-              </h1>
-            <div class="table-responsive">
-              <table class="table table-striped">
-           <thead>
-            <tr>
-              <th></th>
-              <th>2012</th>
-              <th>2022</th>
-              <th></th>
-            </tr>
-           </thead>
-           <tbody>
-            
-<tr><th scope='row'>Population (Million)</th><td>14.9</td><td>20.3<td><canvas id='BHR' class='sparkline' data-chart_values=[14.9,15.3,15.8,16.3,16.8,17.4,17.9,18.5,19.1,19.7,20.3]></canvas></td></tr>
-<tr><th scope='row'>Real GDP Growth (% Change)</th><td>-0.8</td><td>4.7<td><canvas id='BHR' class='sparkline' data-chart_values=[-0.8,2.3,7,6,5.4,5.2,4.7,4.7,4.7,4.7,4.7]></canvas></td></tr>
-<tr><th scope='row'>Current GDP (US$ Billion)</th><td>12.5</td><td>18.9<td><canvas id='BHR' class='sparkline' data-chart_values=[12.5,13.3,14.4,13.1,14,14.3,15.2,16,16.9,17.9,18.9]></canvas></td></tr>
-<tr><th scope='row'>Current GDP PPP (US$ billion)</th><td>29.4</td><td>57.2<td><canvas id='BHR' class='sparkline' data-chart_values=[29.4,30.6,33.3,35.7,38.1,41,43.9,46.9,50.1,53.6,57.2]></canvas></td></tr>
-<tr><th scope='row'>Current GDP per capita (US$)</th><td>838.2</td><td>932.7<td><canvas id='BHR' class='sparkline' data-chart_values=[838.2,865.9,912.6,804.4,830.1,826.5,848.6,867.6,888.4,907.6,932.7]></canvas></td></tr>
-<tr><th scope='row'>Inflation, average consumer prices (% Change)</th><td>5.3</td><td>2.2<td><canvas id='BHR' class='sparkline' data-chart_values=[5.3,-0.6,0.9,1.4,-1.8,0.2,1.2,1.6,1.9,2.1,2.2]></canvas></td></tr>
-<tr><th scope='row'>Current Account Balance (US$ Billion)</th><td>-0.3</td><td>-1.1<td><canvas id='BHR' class='sparkline' data-chart_values=[-0.3,-0.4,-0.7,-1,-1.1,-1.2,-1,-1,-1,-1.1,-1.1]></canvas></td></tr>
-<tr><th scope='row'>Current Account Balance (% of GDP)</th><td>-2.2</td><td>-5.9<td><canvas id='BHR' class='sparkline' data-chart_values=[-2.2,-2.9,-4.7,-7.3,-8,-8,-6.3,-6.1,-6,-5.9,-5.9]></canvas></td></tr>
-<tr><th scope='row'>Total foreign debt (US$ Billion)</th><td>3.1</td><td>4.5<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[3.1,3.4,3.4,3.7,4,4.2,4.5]></canvas></td></tr>
-<tr><th scope='row'>Total debt (% of Exports G&amp;S)</th><td>71.8</td><td>112.2<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[71.8,80,80.7,93.2,104.6,104.5,112.2]></canvas></td></tr>
-<tr><th scope='row'>Total debt (% of GDP)</th><td>24.6</td><td>29.8<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[24.6,26.7,24.5,28.8,29.7,29.8,29.8]></canvas></td></tr>
-<tr><th scope='row'>International reserves (% of Total debt)</th><td>4.2</td><td>2.4<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[4.2,3.9,3.6,3,3.1,2.9,2.4]></canvas></td></tr>
-<tr><th scope='row'>Debt-service ratio, paid (% of Exports G&amp;S)</th><td>1.4</td><td>4.3<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[1.4,2.4,2.3,2.7,4,4.2,4.3]></canvas></td></tr>
-<tr><th scope='row'>Debt-service ratio, due (% of Exports G&amp;S)</th><td>2.3</td><td>4.4<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[2.3,2.6,2.6,3.4,4,4.2,4.4]></canvas></td></tr>
-<tr><th scope='row'>Debt-service paid (% of GDP)</th><td>0.5</td><td>1.2<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[0.5,0.8,0.7,0.8,1.1,1.2,1.2]></canvas></td></tr>
-<tr><th scope='row'>Interest paid (% of debt-service paid)</th><td>40.2</td><td>47.3<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[40.2,27.9,26.6,31.4,47.4,47,47.3]></canvas></td></tr>
-<tr><th scope='row'>Interest paid (% of Exports G&amp;S)</th><td>0.6</td><td>2.1<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[0.6,0.7,0.6,0.8,1.9,2,2.1]></canvas></td></tr>
-<tr><th scope='row'>Interest paid (% of GDP)</th><td>0.2</td><td>0.5<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[0.2,0.2,0.2,0.3,0.5,0.6,0.5]></canvas></td></tr>
-<tr><th scope='row'>Effective Interest rate (%)</th><td>0.9</td><td>2<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[0.9,1,0.8,1,2,2,2]></canvas></td></tr>
-<tr><th scope='row'>Budget balance (% of GDP)</th><td>-1.1</td><td>-4.4<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[-1.1,-2.5,-3,-1.9,-4.1,-4,-4.4]></canvas></td></tr>
-<tr><th scope='row'>Stock of money M1 (US$ Billion)</th><td>2.6</td><td>3<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[2.6,2.8,2.6,2.6,2.6,2.8,3]></canvas></td></tr>
-<tr><th scope='row'>Stock of money M2 (US$ Billion)</th><td>3.4</td><td>4.8<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[3.4,3.8,3.6,3.7,3.9,4.3,4.8]></canvas></td></tr>
-<tr><th scope='row'>M1 (% Change)</th><td>17.5</td><td>5<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[17.5,2.7,7,9.9,3.1,6.8,5]></canvas></td></tr>
-<tr><th scope='row'>M2 (% Change)</th><td>15.4</td><td>8.9<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[15.4,6,8.3,13.8,8.1,11.2,8.9]></canvas></td></tr>
-<tr><th scope='row'>Net debt (% of Exports G&amp;S)</th><td>68.8</td><td>109.4<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[68.8,76.9,77.8,90.4,101.3,101.4,109.4]></canvas></td></tr>
-<tr><th scope='row'>Net debt (% of GDP)</th><td>23.5</td><td>29<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[23.5,25.7,23.6,27.9,28.8,29,29]></canvas></td></tr>
-<tr><th scope='row'>National currency per US$, period average</th><td>510.5</td><td>615.9<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[510.5,494,494.4,591.5,593,618.1,615.9]></canvas></td></tr>
-<tr><th scope='row'>Real effective exchange rate (CPI-based)</th><td>106.2</td><td>100.7<sup>2018</sup><td><canvas id='BHR' class='sparkline' data-chart_values=[106.2,106.6,107.8,102.5,101.3,99.8,100.7]></canvas></td></tr>
 
-          </tbody>
+     <h1>Mali 
+                <a href='countries/xl/MLI.xlsx'>
+                  <i class="fa fa-file-excel-o" aria-hidden="true" style="float: right"></i>
+                  </a>
+                  <a href='countries/pdf/MLI.pdf'>
+                  <i class="fa fa-file-pdf-o" aria-hidden="true" style="float: right">&nbsp;&nbsp;&nbsp;</i>
+                  </a>
+                  </h1>
+                <div class="table-responsive">
+                  <table class="table table-striped">
+               <thead>
+                <tr>
+                  <th></th>
+                  <th>2012</th>
+                  <th>2022</th>
+                  <th></th>
+                </tr>
+               </thead>
+               <tbody>
 
-
-         
-          </table>
-           </div> 
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script> -->
-        <script src="js/line.js"></script>   
-
-        <!-- </main> -->
-<!--       </div>
-    </div> -->
+    <tr><th scope='row'>Population (Million)</th><td>16.1</td><td>22.2</td><td><canvas id='BHR' class='sparkline' data-chart_values=[16.1,16.6,17.1,17.7,18.3,18.9,19.5,20.2,20.8,21.5,22.2]></canvas></td></tr><tr><th scope='row'>Real GDP Growth (% Change)</th><td>-0.8</td><td>4.7</td><td><canvas id='BHR' class='sparkline' data-chart_values=[-0.8,2.3,7.0,6.0,5.8,5.3,5.0,4.7,4.7,4.7,4.7]></canvas></td></tr><tr><th scope='row'>Current GDP (US$ Billion)</th><td>12.4</td><td>20.5</td><td><canvas id='BHR' class='sparkline' data-chart_values=[12.4,13.2,14.4,13.1,14.0,15.0,16.3,17.3,18.3,19.3,20.5]></canvas></td></tr><tr><th scope='row'>Current GDP PPP (US$ billion)</th><td>29.4</td><td>57.2</td><td><canvas id='BHR' class='sparkline' data-chart_values=[29.4,30.6,33.3,35.7,38.2,41.0,43.9,46.9,50.1,53.6,57.2]></canvas></td></tr><tr><th scope='row'>Current GDP per capita (US$)</th><td>772.7</td><td>920.2</td><td><canvas id='BHR' class='sparkline' data-chart_values=[772.7,798.6,840.8,740.4,767.7,793.8,837.2,858.0,878.2,897.2,920.2]></canvas></td></tr><tr><th scope='row'>Inflation, average consumer prices (% Change)</th><td>5.3</td><td>2.2</td><td><canvas id='BHR' class='sparkline' data-chart_values=[5.3,-0.6,0.9,1.4,-1.8,0.2,1.2,1.6,1.9,2.1,2.2]></canvas></td></tr><tr><th scope='row'>Current Account Balance (US$ Billion)</th><td>-0.3</td><td>-1.2</td><td><canvas id='BHR' class='sparkline' data-chart_values=[-0.3,-0.4,-0.7,-0.7,-1.0,-1.0,-0.9,-1.0,-1.1,-1.1,-1.2]></canvas></td></tr><tr><th scope='row'>Current Account Balance (% of GDP)</th><td>-2.2</td><td>-5.7</td><td><canvas id='BHR' class='sparkline' data-chart_values=[-2.2,-2.9,-4.7,-5.3,-7.1,-7.0,-5.6,-5.7,-5.8,-5.9,-5.7]></canvas></td></tr><tr><th scope='row'>Total foreign debt (US$ Billion)</th><td>3.1</td><td>4.7<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[3.1,3.4,3.4,3.7,4.0,4.3]></canvas></td></tr><tr><th scope='row'>Total debt (% of Exports G&S)</th><td>71.8</td><td>98.0<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[71.8,80.0,80.7,86.9,97.2,98.5]></canvas></td></tr><tr><th scope='row'>Total debt (% of GDP)</th><td>24.6</td><td>28.4<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[24.6,26.7,24.5,28.8,28.3,28.6]></canvas></td></tr><tr><th scope='row'>International reserves (% of Total debt)</th><td>43.5</td><td>16.6<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[43.5,37.8,30.4,21.9,9.9,19.7]></canvas></td></tr><tr><th scope='row'>Debt-service ratio, paid (% of Exports G&S)</th><td>1.4</td><td>3.8<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[1.4,2.4,2.3,2.5,3.7,3.8]></canvas></td></tr><tr><th scope='row'>Debt-service ratio, due (% of Exports G&S)</th><td>2.3</td><td>3.8<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[2.3,2.6,2.6,3.2,3.7,3.8]></canvas></td></tr><tr><th scope='row'>Debt-service paid (% of GDP)</th><td>0.5</td><td>1.1<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[0.5,0.8,0.7,0.8,1.1,1.1]></canvas></td></tr><tr><th scope='row'>Interest paid (% of debt-service paid)</th><td>40.2</td><td>47.3<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[40.2,27.9,26.6,31.4,47.4,46.9]></canvas></td></tr><tr><th scope='row'>Interest paid (% of Exports G&S)</th><td>0.6</td><td>1.8<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[0.6,0.7,0.6,0.8,1.8,1.8]></canvas></td></tr><tr><th scope='row'>Interest paid (% of GDP)</th><td>0.2</td><td>0.5<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[0.2,0.2,0.2,0.3,0.5,0.5]></canvas></td></tr><tr><th scope='row'>Effective Interest rate (%)</th><td>0.9</td><td>2.0<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[0.9,1.0,0.8,1.0,2.0,2.0]></canvas></td></tr><tr><th scope='row'>Budget balance (% of GDP)</th><td>-1.1</td><td>-3.3<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[-1.1,-2.5,-3.0,-1.9,-3.9,-3.4]></canvas></td></tr><tr><th scope='row'>Stock of money M1 (US$ Billion)</th><td>2.6</td><td>3.3<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[2.6,2.8,2.6,2.6,2.7,3.2]></canvas></td></tr><tr><th scope='row'>Stock of money M2 (US$ Billion)</th><td>3.4</td><td>5.0<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[3.4,3.8,3.6,3.7,3.9,4.7]></canvas></td></tr><tr><th scope='row'>M1 (% Change)</th><td>17.5</td><td>4.8<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[17.5,2.7,7.0,9.9,7.9,4.9]></canvas></td></tr><tr><th scope='row'>M2 (% Change)</th><td>15.4</td><td>9.6<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[15.4,6.0,8.3,13.8,7.3,7.4]></canvas></td></tr><tr><th scope='row'>Net debt (% of Exports G&S)</th><td>40.5</td><td>81.7<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[40.5,49.8,56.1,67.9,87.5,79.1]></canvas></td></tr><tr><th scope='row'>Net debt (% of GDP)</th><td>13.9</td><td>23.7<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[13.9,16.6,17.0,22.5,25.5,23.0]></canvas></td></tr><tr><th scope='row'>National currency per US$, period average</th><td>510.5</td><td>581.8<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[510.5,494.0,494.4,591.4,593.0,594.3]></canvas></td></tr><tr><th scope='row'>Real effective exchange rate (CPI-based)</th><td>108.8</td><td>107.2<sup>2018</sup></td><td><canvas id='BHR' class='sparkline' data-chart_values=[108.8,109.4,110.6,105.4,104.3,104.1]></canvas></td></tr>
+                </tbody>
+              </table>
+            </div> 
+            <script src="js/line.js"></script>   
+        

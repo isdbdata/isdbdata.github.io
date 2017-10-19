@@ -1,14 +1,4 @@
-var data = {
-  labels : ['1','2','3','4','5', '6', '7', '8', '9', '1', '2'],
-  datasets : [
-    {
-      borderColor: 'rgba(191, 63, 63,0.7)', fill:false, pointRadius:0,
-      data : [28,48,40,19,96,27,100]
-    }
-  ]
-};
-
-
+Chart.defaults.global.legend.display = false;
 
 var options = {
     responsive:true,
